@@ -14,7 +14,7 @@ function Footer() {
             <p><i class="bi bi-envelope"></i> &nbsp; &nbsp; Anasn5020@gmail.com</p>
           </div>
           <div className='col-sm-12 col-md-3 col-lg-3'>
-            <ul>
+            <ul className='footerUL'>
               <li><NavLink exact className="nav-link" to='/'>Home</NavLink></li>
               <li><NavLink exact className="nav-link" to='/about'>About</NavLink></li>
               <li><NavLink exact className="nav-link" to='/Contact'>Contact</NavLink></li>
@@ -22,7 +22,7 @@ function Footer() {
             </ul>
           </div>
           <div className='col-sm-12 col-md-3 col-lg-3'>
-            <ul>
+            <ul className='footerUL'>
               <li><strong>Features</strong></li>
               <li>Discover</li>
               <li>Engage</li>
@@ -30,11 +30,11 @@ function Footer() {
             </ul>
           </div>
           <div className='col-sm-12 col-md-3 col-lg-3'>
-            <ul className='SocialMediaIcons'>
+            <ul className='SocialMediaIcons footerUL'>
               <li><h6><strong>Social Media</strong></h6></li>
               <li><a href='#' className='text-decoration-none'><h6><i class="bi bi-facebook"></i> &nbsp;Facebook</h6></a></li>
               <li><a href='#' className='text-decoration-none'><h6><i class="bi bi-whatsapp"></i> &nbsp;Whatsapp</h6></a></li>
-              <li><a href='#' className='text-decoration-none'><h6><i class="bi bi-instagram"></i> &nbsp;Instagram</h6></a></li>!!
+              <li><a href='#' className='text-decoration-none'><h6><i class="bi bi-instagram"></i> &nbsp;Instagram</h6></a></li>
             </ul>
           </div>
         </div>

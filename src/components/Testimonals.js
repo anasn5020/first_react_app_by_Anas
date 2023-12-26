@@ -1,7 +1,7 @@
 import React from 'react';
-import car1 from '../Assets/Images/car1.jpg';
-import car2 from '../Assets/Images/car2.jpg';
-import car3 from '../Assets/Images/car3.jpg';
+import car1 from '../Assets/Images/cars1.jpg';
+import car2 from '../Assets/Images/cars2.jpg';
+import car3 from '../Assets/Images/cars3.jpg';
 
 const Testimonals = () => {
     return (
@@ -16,15 +16,15 @@ const Testimonals = () => {
                     <div class="carousel-item active">
                         <img src={car1} class="d-block w-100" alt="image1" />
                         <div class="carousel-caption d-none d-md-block">
-                            <h3 className='text-dark'>Sarah123</h3>
-                            <p className='fst-italic text-dark'>I couldn't be happier with the service provided by this website. The user interface is intuitive, and the customer support is exceptional. Anytime I had a question, they were quick to respond and went above and beyond to assist me. Highly recommended!</p>
+                            <h3 className=''>Sarah123</h3>
+                            <p className='fst-italic'>I couldn't be happier with the service provided by this website. The user interface is intuitive, and the customer support is exceptional. Anytime I had a question, they were quick to respond and went above and beyond to assist me. Highly recommended!</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src={car2} class="d-block w-100" alt="image1" />
                         <div class="carousel-caption d-none d-md-block">
-                            <h3 className='text-dark'>BusinessPro123</h3>
-                            <p className='fst-italic text-dark'>Using this website has been a game-changer for my business. The analytics tools provide valuable insights, and the integrated solutions have streamlined our workflow. Our team loves the collaborative features, and we've seen a significant boost in productivity. Thank you for creating such a powerful platform!</p>
+                            <h3 className=''>BusinessPro123</h3>
+                            <p className='fst-italic'>Using this website has been a game-changer for my business. The analytics tools provide valuable insights, and the integrated solutions have streamlined our workflow. Our team loves the collaborative features, and we've seen a significant boost in productivity. Thank you for creating such a powerful platform!</p>
                         </div>
                     </div>
                     <div class="carousel-item">

@@ -1,12 +1,15 @@
 import React from 'react';
 import Banner from '../components/Banner';
-import ContactBanner from '../Assets/Images/ContactBanner.jpeg';
+import ContactBanner from '../Assets/Images/Contact.jpg';
+import ContactUs from '../components/ContactUs';
 
 function Contact() {
     return(
         <>
         <Banner image={ContactBanner} />
-        <h1>Contact Page</h1>
+        <div className='container mt-5'>
+            <ContactUs />
+        </div>
         </>
     )
 }
