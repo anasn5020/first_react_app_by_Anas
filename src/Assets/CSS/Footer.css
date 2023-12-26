@@ -1,4 +1,13 @@
 footer{
+    padding: 20px;
     width: 100%;
     background-color: rgb(245, 243, 243);
+    margin-bottom: none;
+}
+ul{
+    list-style-type: none;
+}
+.SocialMediaIcons{
+    display: flex;
+    justify-content: space-around;
 }
